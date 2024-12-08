@@ -3,8 +3,9 @@
   <img src="https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-santa-hat.gif?w=1177" alt="Advent of Code" width="600" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
   [![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen?style=for-the-badge&logo=advent-of-code&logoColor=white)](https://adventofcode.com/)
-  [![GitHub Stars](https://img.shields.io/github/stars/muhammadibrahim313/Advent-of-Code-2024?style=for-the-badge&logo=github&color=yellow)](https://github.com/muhammadibrahim313/Advent-of-Code-2024/stargazers)
-  [![Language Count](https://img.shields.io/github/languages/count/muhammadibrahim313/Advent-of-Code-2024?style=for-the-badge&color=orange)](https://github.com/muhammadibrahim313/Advent-of-Code-2024)
+[![GitHub Stars](https://img.shields.io/github/stars/M-Hamza-Hassaan/Advent-Of-Code?style=for-the-badge&logo=github&color=yellow)](https://github.com/M-Hamza-Hassaan/Advent-Of-Code/stargazers)
+[![Language Count](https://img.shields.io/github/languages/count/M-Hamza-Hassaan/Advent-Of-Code?style=for-the-badge&color=orange)](https://github.com/M-Hamza-Hassaan/Advent-Of-Code)
+
 </div>
 
 ## 🌟 Welcome to My Advent of Code Adventure! 
