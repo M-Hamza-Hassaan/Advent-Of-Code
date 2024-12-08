@@ -3,7 +3,6 @@
 [![GitHub Stars](https://img.shields.io/github/stars/M-Hamza-Hassaan/Advent-Of-Code?style=for-the-badge&logo=github&color=yellow&logoWidth=20&labelWidth=150)](https://github.com/M-Hamza-Hassaan/Advent-Of-Code/stargazers)
 [![Language Count](https://img.shields.io/github/languages/count/M-Hamza-Hassaan/Advent-Of-Code?style=for-the-badge&color=orange)](https://github.com/M-Hamza-Hassaan/Advent-Of-Code)
 
-</div>
 
 ## 🌟 Welcome to My Advent of Code Adventure! 
 
@@ -90,8 +89,6 @@ cd Advent-Of-Code/Day1
 
 **Happy Coding! Let the Advent of Code Challenge Begin! 🚀🎄**
 
-*#AdventOfCode2024 #CodingChallenge #Programming*
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=muhammadibrahim313.Advent-of-Code-2024" alt="Visitors">
-</div>
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=M-Hamza-Hassaan.Advent-Of-Code&style=for-the-badge&logo=github" alt="Visitors" width="100">
+</p>
