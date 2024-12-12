@@ -1,6 +1,4 @@
-[![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen?style=for-the-badge&logo=advent-of-code&logoColor=white)](https://adventofcode.com/)
-
-[![Language Count](https://img.shields.io/github/languages/count/M-Hamza-Hassaan/Advent-Of-Code?style=for-the-badge&color=orange)](https://github.com/M-Hamza-Hassaan/Advent-Of-Code)
+[![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen?style=for-the-badge&logo=advent-of-code&logoColor=white)](https://adventofcode.com/) [![Language Count](https://img.shields.io/github/languages/count/M-Hamza-Hassaan/Advent-Of-Code?style=for-the-badge&color=orange)](https://github.com/M-Hamza-Hassaan/Advent-Of-Code)
 
 
 ## 🌟 Welcome to My Advent of Code Adventure! 
