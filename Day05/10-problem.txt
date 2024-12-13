@@ -1,24 +1,10 @@
-The Elf looks quizzically at you. Did you misunderstand the assignment?
+While the Elves get to work printing the correctly-ordered updates, you have a little time to fix the rest of them.
 
-Looking for the instructions, you flip over the word search to find that this isn't actually an XMAS puzzle; it's an X-MAS puzzle in which you're supposed to find two MAS in the shape of an X. One way to achieve that is like this:
+For each of the incorrectly-ordered updates, use the page ordering rules to put the page numbers in the right order. For the above example, here are the three incorrectly-ordered updates and their correct orderings:
 
-M.S
-.A.
-M.S
-Irrelevant characters have again been replaced with . in the above diagram. Within the X, each MAS can be written forwards or backwards.
+75,97,47,61,53 becomes 97,75,47,61,53.
+61,13,29 becomes 61,29,13.
+97,13,75,29,47 becomes 97,75,47,29,13.
+After taking only the incorrectly-ordered updates and ordering them correctly, their middle page numbers are 47, 29, and 47. Adding these together produces 123.
 
-Here's the same example from before, but this time all of the X-MASes have been kept instead:
-
-.M.S......
-..A..MSMS.
-.M.S.MAA..
-..A.ASMSM.
-.M.S.M....
-..........
-S.S.S.S.S.
-.A.A.A.A..
-M.M.M.M.M.
-..........
-In this example, an X-MAS appears 9 times.
-
-Flip the word search from the instructions back over to the word search side and try again. How many times does an X-MAS appear?
+Find the updates which are not in the correct order. What do you get if you add up the middle page numbers after correctly ordering just those updates?
