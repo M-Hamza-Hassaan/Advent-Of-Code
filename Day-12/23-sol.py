@@ -1,65 +1,60 @@
-def read_map(file_path):
-    """Reads the garden map from the input file."""
+def read_input(file_path):
     with open(file_path, 'r') as file:
         return [list(line.strip()) for line in file.readlines()]
 
-def flood_fill(grid, x, y, visited, plant_type):
-    """Performs flood-fill to find a region and calculates its area and perimeter."""
-    rows, cols = len(grid), len(grid[0])
-    stack = [(x, y)]
-    area = 0
+def calculate_area_and_perimeter(region, grid):
+    area = len(region)
     perimeter = 0
-    visited.add((x, y))
-
-    # Directions for movement: up, down, left, right
-    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
-
-    while stack:
-        cx, cy = stack.pop()
-        area += 1
-
-        for dx, dy in directions:
-            nx, ny = cx + dx, cy + dy
-            if 0 <= nx < rows and 0 <= ny < cols:
-                if grid[nx][ny] == plant_type:
-                    if (nx, ny) not in visited:
-                        visited.add((nx, ny))
-                        stack.append((nx, ny))
-                else:
-                    # Edge of the region
-                    perimeter += 1
-            else:
-                # Edge of the grid
-                perimeter += 1
-
+    for (x, y) in region:
+        if x == 0 or grid[x-1][y] != grid[x][y]: perimeter += 1  # Top
+        if x == len(grid) - 1 or grid[x+1][y] != grid[x][y]: perimeter += 1  # Bottom
+        if y == 0 or grid[x][y-1] != grid[x][y]: perimeter += 1  # Left
+        if y == len(grid[0]) - 1 or grid[x][y+1] != grid[x][y]: perimeter += 1  # Right
     return area, perimeter
 
-def calculate_fencing_cost(grid):
-    """Calculates the total fencing cost for the garden."""
-    rows, cols = len(grid), len(grid[0])
+def find_regions(grid):
     visited = set()
-    total_cost = 0
+    regions = {}
+    
+    def dfs(x, y, plant_type):
+        stack = [(x, y)]
+        region = []
+        while stack:
+            cx, cy = stack.pop()
+            if (cx, cy) in visited:
+                continue
+            visited.add((cx, cy))
+            region.append((cx, cy))
+            for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+                nx, ny = cx + dx, cy + dy
+                if 0 <= nx < len(grid) and 0 <= ny < len(grid[0]) and (nx, ny) not in visited and grid[nx][ny] == plant_type:
+                    stack.append((nx, ny))
+        return region
 
-    for x in range(rows):
-        for y in range(cols):
-            if (x, y) not in visited:
-                # Start a new region
-                plant_type = grid[x][y]
-                area, perimeter = flood_fill(grid, x, y, visited, plant_type)
-                total_cost += area * perimeter
+    for i in range(len(grid)):
+        for j in range(len(grid[0])):
+            if (i, j) not in visited:
+                plant_type = grid[i][j]
+                region = dfs(i, j, plant_type)
+                if plant_type not in regions:
+                    regions[plant_type] = []
+                regions[plant_type].append(region)
+    
+    return regions
 
-    return total_cost
+def calculate_total_price(regions, grid):
+    total_price = 0
+    for plant_type, region_list in regions.items():
+        for region in region_list:
+            area, perimeter = calculate_area_and_perimeter(region, grid)
+            total_price += area * perimeter
+    return total_price
 
 def main():
-    # Read the garden map from the input file
-    file_path = "input.txt"
-    garden_map = read_map(file_path)
-
-    # Calculate the total fencing cost
-    total_cost = calculate_fencing_cost(garden_map)
-
-    # Output the result
-    print("Total fencing cost:", total_cost)
+    grid = read_input('input.txt')
+    regions = find_regions(grid)
+    total_price = calculate_total_price(regions, grid)
+    print(total_price)
 
 if __name__ == "__main__":
     main()
