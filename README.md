@@ -40,8 +40,8 @@ cd Advent-Of-Code/Day1
 
 ## Progress Overview
 
-- ✅ Completed Days: 22/25
-- 🧊 Remaining Days: 3
+- ✅ Completed Days: 23/25
+- 🧊 Remaining Days: 2
 - 🏆 Challenge Status: Started
 
 
