@@ -40,10 +40,9 @@ cd Advent-Of-Code/Day1
 
 ## Progress Overview
 
-- ✅ Completed Days: 23/25
-- 🧊 Remaining Days: 2
+- ✅ Completed Days: 24/25
+- 🧊 Remaining Days: 1
 - 🏆 Challenge Status: Started
-
 
 
 ## 🛠️ Technologies & Tools
@@ -52,6 +51,7 @@ cd Advent-Of-Code/Day1
   
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 [![VS Code](https://img.shields.io/badge/-VS%20Code-yellow?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![Google Colab](https://img.shields.io/badge/-Google%20Colab-orange?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 </div>
 
@@ -75,13 +75,6 @@ cd Advent-Of-Code/Day1
 
 - 🎄 [Advent of Code Official Website](https://adventofcode.com/)
 - 🍴 [GitHub Forking Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-
-## 🤝 How to Participate
-
-1. **Fork the Repository**: Create your own copy
-2. **Follow Along**: Check out my daily solutions
-3. **Contribute**: Share your own approaches and insights
-4. **Learn Together**: Let's grow as developers!
 
 
 **Happy Coding! Let the Advent of Code Challenge Begin! 🚀🎄**
