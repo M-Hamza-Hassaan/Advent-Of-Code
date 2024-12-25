@@ -47,9 +47,8 @@ cd Advent-Of-Code/Day1
 
 # Leaderboard Report
 
-## Your Total Points: 567
+# My Total Points: 567
 
-### **Part 1 and Part 2 Comparison**
 
 | **Day** | **Time (Part 1)** | **Rank (Part 1)** | **Score (Part 1)** | **Time (Part 2)** | **Rank (Part 2)** | **Score (Part 2)** |
 |:-------:|:-----------------:|:-----------------:|:------------------:|:-----------------:|:-----------------:|:------------------:|
@@ -86,7 +85,9 @@ cd Advent-Of-Code/Day1
 - The report shows the progress made over the days and tracks improvements or differences in performance between the two parts of the task.
 
 
-
+## Check out my Other Positions on the Daily Leaderboard:
+This is one of them.
+![Day 7 - First Problem](https://github.com/M-Hamza-Hassaan/Advent-Of-Code/blob/main/International%20Rankings/Day-07-First%20Problem.JPG?raw=true)
 
 ## 🛠️ Technologies & Tools
 
