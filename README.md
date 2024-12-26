@@ -3,9 +3,9 @@
 
 ## 🌟 Welcome to My Advent of Code Adventure! 
 
-## Check this: 
+### Check this: 
 
-With 567 points, i was the 11th from Pakistan. In first 17 days, i had only 164 points. And in next 6 Day i gained 403 points, crazy haan.
+With **567 points, i was the 11th from Pakistan**. In first 17 days, i had only 164 points. And in next **6 Day i gained 403 points**, crazy haan.
 
 
 
