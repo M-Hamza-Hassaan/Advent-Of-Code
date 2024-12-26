@@ -3,7 +3,7 @@
 
 ## 🌟 Welcome to My Advent of Code Adventure! 
 
-Check this: With 567 points, i was the **11th from Pakistan**. In first 17 days, i had only 164 points. And in next 6 Day i gained 403 points, crazy haan.
+**Check this: With 567 points, i was the 11th from Pakistan. In first 17 days, i had only 164 points. And in next 6 Day i gained 403 points, crazy haan.**
 
 Hey there! I'm taking on the **Advent of Code 2024 Challenge** - 25 days of coding puzzles that will push my skills to the limit! 
 
